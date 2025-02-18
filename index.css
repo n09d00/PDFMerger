@@ -1,0 +1,170 @@
+body {
+    background-color: #202020;
+}
+
+.title {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    vertical-align: center;
+}
+
+.drop-area {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    border: dotted grey;
+    margin: auto;
+
+    padding: 10px 10px 10px 10px;
+    height: 250px;
+    width: 85%;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.spacing {
+    padding: 30px;
+}
+
+.small-spacing {
+    padding: 10px;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    max-height: 40%;
+    max-width: 30%;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.button {
+    background-color: steelblue;
+    color: white;
+    border: steelblue solid 2px;
+    border-radius: 10px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #16437E;
+    color: #ffffff;
+    border: #16437E solid 2px;
+}
+
+.green-border {
+    border-color: green;
+}
+
+.document-list {
+    width: 670px;
+    margin: 0 auto;
+}
+
+.document-list ul {
+    display: block;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+.document-list li {
+    display: flex; /* Flexbox layout for centering */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    margin: 5px;
+}
+
+.list-element {
+    display: block;
+    justify-content: center;
+    text-align: start;
+    width: auto;
+    background-color: steelblue;
+    margin: auto auto 10px;
+    border: 0;
+    border-radius: 1px;
+    height: 40px;
+    gap: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-justify: auto;
+}
+
+::marker {
+    display: block;
+    background-color: steelblue;
+}
+
+.action-button {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    border: steelblue solid 2px;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 8px;
+}
+
+.action-button:last-child {
+    margin-right: 0; /* Removes the margin from the last button */
+    margin-left: -9px;
+}
+
+.action-button:nth-child(4) {
+    margin-left: 9px;
+}
+
+.action-button:hover,
+.action-button:focus {
+    background-color: #16437E;
+    color: #ffffff;
+    border: #16437E solid 2px;
+}
+
+.action-button:active {
+    background: steelblue;
+    color: rgb(255, 255, 255, .7);
+}
+
+.action-button:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 150, .08);
+    color: white;
+    border: rgba(0, 0, 100, .3) solid 2px;
+}
+
+.centered-buttons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.centered-buttons label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.delete-button {
+    appearance: none;
+    background-color: inherit;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+

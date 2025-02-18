@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>PDFMerger</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="renderer.js" defer></script>
+</head>
+    <body>
+        <section class="main">
+
+            <img src="assets/logo.png" alt="Image not found" class="logo" draggable="false">
+
+            <div class="small-spacing"></div>
+
+            <!--<hr class="line"> -->
+
+            <section class="drop-area">
+
+                <!--<img src="assets/cloud-upload.png" alt="Image not found" class="image">-->
+                <div class="spacing"></div>
+
+                <div class="drop-header">
+                    <span class="drag-file">Drop Files Here</span> or
+                    <button class="button">Select a File</button>
+                </div>
+
+                <div class="spacing"></div>
+
+                <div class="subtext">
+                    <p>JPG, PNG or PDF only, maximum file size-5MB</p>
+                </div>
+
+
+
+                <input class="input-files" type="file" multiple hidden/>
+            </section>
+
+
+            <p class="size-too-big" hidden>The file size should be less than 5MB!</p>
+            <p class="incorrect-format" hidden>Only .PNG, .JPG and .PDF Files are allowed!</p>
+
+            <div class="document-list">
+                <ul ></ul>
+            </div>
+
+
+            <div class="spacing"></div>
+
+            <div class="action-buttons">
+                <div class="centered-buttons">
+                    <label for="current-directory">Select a Directory:</label>
+                    <input type="text" id="current-directory"/>
+                    <button class="action-button" id="select-save-path">Browse</button>
+                    <button class="action-button" id="Split" disabled="disabled"> Split </button>
+                    <button class="action-button" id="Merge" disabled="disabled" > Merge </button>
+                </div>
+            </div>
+
+        </section>
+    </body>
+</html>
