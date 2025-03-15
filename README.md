@@ -3,7 +3,7 @@
 A simple PDF File Processing Desktop Application using ElectronJS
 
 ## Prerequisites
-Make sure you have NodeJS installed. You can install NodeJS [here]. (https://nodejs.org/)
+Make sure you have NodeJS installed. You can install NodeJS [here](https://nodejs.org/).
 
 ## Get Started
 
